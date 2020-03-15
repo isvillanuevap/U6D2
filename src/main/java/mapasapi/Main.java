@@ -8,6 +8,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -22,12 +23,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("***EJERCICIO 9, LISTA DE NOMBRE - MAIL DE /USERS***");
+
         List<User> usuarios = getAllUser();
         for (User aux: usuarios) {
             System.out.println(aux.getName() + " - " + aux.getEmail());
         }
 
         System.out.println("\n");
+
+        System.out.println("***EJERCICIO 10, IMPRIME LISTA DE ALBUMS DEL USER CON ID 5 DE /USERS***");
 
         List<Album> albums = getAllAlbums();
         for (Album aux: albums) {
@@ -37,6 +42,8 @@ public class Main {
         }
 
         System.out.println("\n");
+
+        System.out.println("***EJERCICIO 11, IMPRIME ID DE ALBUM, USERID Y TITULO DEL ALBUM QUE SE INDIQUE***");
 
 
         List<Album> albums1 = getAllAlbums();
@@ -51,18 +58,30 @@ public class Main {
 
         System.out.println("\n");
 
-        System.out.println("Titulos");    // FALTA EL SORT
+        System.out.println("***EJERCICIO 12, IMPRIME LISTA FILTRADA Y ORDENADA DE TITULOS DE /PHOTOS***");
+        /*
+         * Aquí primero se filtra la lista, se guarda en una nueva
+         * */
+        System.out.println("Titulos");
         List<Photo> photos = getAllPhoto();
         String parteTitulo = "ipsam do";
-        for (Photo aux: photos){
-            if(aux.getTitle().contains(parteTitulo)){
-                System.out.println(aux.getTitle());
+
+        List<Photo> photosFiltradas = new ArrayList<>(); //Lista nueva filtrada con la parte de título que queremos
+        for (Photo aux : photos) {
+            if (aux.getTitle().contains(parteTitulo)) {
+                photosFiltradas.add(aux);
             }
         }
 
+        photosFiltradas.sort((p1, p2) -> p1.getTitle().compareToIgnoreCase(p2.getTitle())); //Ordenar
+        for (Photo aux : photosFiltradas) {
+            System.out.println(aux.getTitle());
+        }
+
+
         System.out.println("\n");
 
-        //En base a los usuarios obtenidos. Se deben imprimir 2 usuarios y sus respectivos albums.
+        System.out.println("***EJERICIO 13, IMPRIME 2 USUARIOS Y SUS ALBUMS***");
         List<User> users = getAllUser();
         List<Album> albums2 = getAllAlbums();
         for (User aux: users) {
@@ -76,8 +95,7 @@ public class Main {
 
         System.out.println("\n");
 
-
-
+        System.out.println("***EJERICIO 14, IMPRIME MAPAS CON LOS ALBUMS DE 3 USUARIOS***");
 
 
 
