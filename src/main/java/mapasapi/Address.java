@@ -7,10 +7,10 @@ package mapasapi;
  */
 
 public class Address {
-    
+
     public Address(){
     }
-    
+
     private String street;
     private String suite;
     private String city;

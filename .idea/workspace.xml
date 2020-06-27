@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0455cbda-67b0-400e-a844-c42cd7f0f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Geo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapasapi/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapasapi/Photo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Geo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Geo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapasapi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapasapi/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,49 +75,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1583619029258">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1593238104339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1583619029258" />
-    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1583600539718">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1593238104339" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1593238865129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="431" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1583600539718" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1584253634764">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593238865129" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1593238865127">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584253634764" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1584253634763">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593238865127" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1593238865125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584253634763" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1584253634762">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593238865125" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1593238865128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584253634762" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1584253634763">
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593238865128" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584647666236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584253634763" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583600693077">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584647666236" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1584647666235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583600693077" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583600693073">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584647666235" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1584647666234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583600693073" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583600693072">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584647666234" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1584647666236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583600693072" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583600693076">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583600693076" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1583617989320">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583617989320" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584647666236" />
   </component>
 </project>

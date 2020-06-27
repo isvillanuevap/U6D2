@@ -6,8 +6,8 @@ package mapasapi;
  * @author sebavip
  */
 public class Album {
-    
-    public Album(){    
+
+    public Album(){
     }
     
     private Integer userId;

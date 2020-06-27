@@ -7,7 +7,7 @@ package mapasapi;
  */
 
 public class Company {
-    
+
     public Company(){
     }
     

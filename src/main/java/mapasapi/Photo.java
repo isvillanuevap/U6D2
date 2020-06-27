@@ -6,11 +6,10 @@ package mapasapi;
  * @author sebavip
  */
 public class Photo {
-    
+
     public Photo(){
     }
 
-    
     private Integer albumId;
     private Integer id;
     private String title;

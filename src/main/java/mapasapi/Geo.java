@@ -6,10 +6,10 @@ package mapasapi;
  * @author sebavip
  */
 public class Geo {
-    
+
     public Geo(){
     }
-    
+
     private String lat;
     private String lng;
 
